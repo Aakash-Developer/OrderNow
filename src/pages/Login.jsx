@@ -22,8 +22,8 @@ export default function Login() {
      </div>
      </div>
      <div>
-     <Button type="button" clsses="btn-outline-primary me-3" lable="Submit" clickHandler={SubmitData}/>
-     <Button type="reset" clsses="btn-outline-danger me-3" lable="Reset" clickHandler={SubmitData}/>
+     <Button type="button" className="btn-outline-primary me-3" lable="Submit" clickHandler={SubmitData}/>
+     <Button type="reset" className="btn-outline-danger me-3" lable="Reset" clickHandler={SubmitData}/>
      </div>
     </form>
     </div>
