@@ -9,8 +9,7 @@ export default function Login() {
   console.log(e)
   }
   return (
-    <div className='container d-flex justify-content-center align-items-center' style={{height:"100vh",width:"100%"}}>
-    <div style={{width:"100%",maxWidth:"600px"}}>
+    <div>
     <h1 className='fs-1 fw-bold text-uppercase mb-5 text-center'>Login</h1>
     <form className='w-100'>
      <div className='row'>
@@ -26,7 +25,6 @@ export default function Login() {
      <Button type="reset" className="btn-outline-danger me-3" lable="Reset" clickHandler={SubmitData}/>
      </div>
     </form>
-    </div>
     </div>
   )
 }
