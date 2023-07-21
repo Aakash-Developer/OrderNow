@@ -1,5 +1,6 @@
 import React from 'react'
 import { Input,Button } from '../components'
+import { Link } from 'react-router-dom'
 
 export default function Login() {
   const FromInputCheck=(e)=>{
@@ -19,6 +20,9 @@ export default function Login() {
      <div className='col-12'>
      <Input type="Password" name="password" placeholder="Password" changeHandler={FromInputCheck} lable="Password"/>
      </div>
+     </div>
+     <div className='col-12'>
+     <p><Link to="forgrotpassword">Forgot Password ?</Link></p>
      </div>
      <div>
      <Button type="button" className="btn-outline-primary me-3" lable="Submit" clickHandler={SubmitData}/>
